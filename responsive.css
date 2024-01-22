@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     body{
         margin:0;
         padding:0;
@@ -19,6 +19,7 @@
  margin-top: 10px;
 }
 .btn:hover{
+    
     background-color:#df1738f3;
     cursor: pointer;
     color: #fff;
@@ -30,9 +31,9 @@
     background-color: #fff;
 }
 .navigation2{
-    display:grid;
-    grid-template-columns: repeat(2fr,2fr);
-    height: 150px;
+    display:flex;
+    /* grid-template-columns: repeat(2fr,2fr); */
+    height:40px;
   
 }
 .links a{
@@ -41,7 +42,8 @@
     color: black;
 }
 .links a:last-child{
-    padding: 10px 4px; 
+    padding: 15px 4px; 
+    display:none;
 }
 .link-1 a{
     text-decoration:none;
@@ -52,16 +54,31 @@
    
 }
 .head{
-    background-image: url(download.jpeg);
+    background-image: url(bg.webp);
     width: 100%;
     height: 600px;
     background-size: cover;
     background-position: center;
     background-repeat: none;
+    width:auto;
 }
 .title{
    padding-top:5rem;
    padding-left: 10px;
+}
+.icon-page{
+    margin-top: 8px;
+    color:#e67f09;
+    display:none;
+}
+.lanuage-page h4{
+    display:none;
+}
+.search-icon{
+    background-color: black;
+    color: #fff;
+    padding-top: 10px;
+    padding:3px 6px;
 }
 .blank{
     display: none;
@@ -72,8 +89,7 @@
    border-radius:25px;
    color:white;
    display: block;
-   margin-top: 15px;
-   
+   margin-top: 15px; 
 }
 
 .link-btn{
@@ -91,6 +107,27 @@
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.texts p{
+    margin-left:10px;
+}
+.texts h2{
+    margin-left:10px;
+}
+.texts h3{
+    margin-left:10px;
+}
+.text-link{
+    margin-left:10px;
+}
+.line{
+    margin-left:10px;
+}
+
+.buttons{
+    margin-top: 17rem;
+    display:none;
+    padding-left: 7rem;
 }
 .container{
     display:grid;
